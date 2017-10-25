@@ -1,0 +1,36 @@
+.paybills-con{
+    width: 836px;
+    height: 800px;
+}
+.paybills-head{
+    width: 756px;
+    height: 74px;
+    margin-left: 100px;
+    background-color: #0F3B75;
+    color: #ffffff;
+}
+.paybills-head>h3{
+    text-align: right;
+}
+
+.paybills-body {
+    width: 836px;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: 9%;
+    border-style: solid;
+}
+
+.paybills-entery {
+    margin-top: 8.5%;
+    float: left;
+    width: 20%;
+    padding-left: 10%;
+    padding-right: 20%;
+}
+.btn-default {
+    border-top-width: 15%;
+    border-radius: 5%;
+    color: #ffffff;
+    background-color:#0F3B75;
+}
