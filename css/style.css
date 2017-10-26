@@ -1,12 +1,18 @@
 /*General css*/
 body {
-    font-family: 'lato', sans-serif;
+    font-family: 'lato', san-serif;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 64px;
     font-style: bold;
     text-align: right;   
+}
+
+h4 {
+    font-size: 15px;
+    font-style: bold;
+    text-align: center;
 }
 
 hr {
@@ -28,7 +34,6 @@ hr {
     width: 50%;
     margin-top: 3%;
     margin-bottom: 5%;
-    padding-left: 2%;
 }
 
 .btn-default {
