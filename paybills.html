@@ -1,44 +1,96 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
-<head>
-    <meta charset="UTF-8">
-    <title>Invite friends</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/paybills.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-</head>
-<body>
-    <div class="container paybills-con">
-        <div class="col col-sm-12 col-xs-6 con">
-            <div class="row">
-                <div class="paybills-head col-sm-8 col-xs-8 ">
-                    <h3 class="panel-heading">PAY BILLS</h3>
+<html>
+    <head>
+        <title>PAY BILLS</title>
+        
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <!--lato font-->
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.js"></script>
+    </head>
+    <body>
+        <div class="paybills">
+        <!--header-->
+        <header>
+            <!--main container-->
+            <div class="paybills-container-head">
+                <!--single row-->
+                <div class="row">
+                    <!--col right-->
+                    <div class="col-sm-12">
+                       <h2>PAY BILLS</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="clear-fix"></div>
+
+        <!--seperator-->
+        <section>
+            <!--main container-->
+            <div class="container">
+                <!--single row-->
+                <div class="row">
+                    <!--col full-->
+                    <div>
+                        <hr>
+                    </div>
+
                 </div>
             </div>
 
-            <div class="row">
-                <div class="paybills-body col-sm-8 col-xs-8">
-                    <div class="row ">
-                        <div class="paybills-entery">
-                            <a href="#" class="btn btn-default">CABLE TV Subscription</a>
-                        </div>
-                        <div class="paybills-entery">
-                            <a href="#" class="btn btn-default">Utility Bills</a>
-                        </div>
+        </section>
+
+        <!--features-->
+        <section>
+            <!--main container-->
+            <div class="container">
+                <!--first row-->
+                <div class="row">
+                    <!--col-1-->
+                    <div class="col-sm-4">
+                        <a href="#" class="btn btn-default">CABLE TV Subscription</a>
                     </div>
-                    <div class="row">
-                        <div class="paybills-entery">
-                            <a href="#" class="btn btn-default">Data Bundle</a>
-                        </div>
-                        <div class="paybills-entery">
-                            <a href="#" class="btn btn-default">Mobile Recharge</a>
-                        </div>
+                    <!--col-2-->
+                    <div class="col-sm-4">
+                        <a href="#" class="btn btn-default">Utility Bills</a>    
+                    </div>
+                </div>
+
+                <!--second row-->
+                <div class="row">
+                    <!--col-1-->
+                    <div class="col-sm-4">
+                        <a href="#" class="btn btn-default">Data Bundle</a>
+                    </div>
+                    <!--col-2-->
+                    <div class="col-sm-4">
+                        <a href="#" class="btn btn-default">Mobile Recharge</a>    
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <div class="clear-fix"></div>
+
+        <!-- footer -->
+        <footer>
+            <!--main container-->
+            <div class="container">
+                <!--single row -->
+                <div class="row">
+                    <!-- col full -->
+                    <div class="col-sm-12">
+                        <p id="footer-p"></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
-</body>
+    </body>
 </html>
