@@ -6,19 +6,21 @@ body {
 header {
     text-align: right;
     font-style: bold;
-    margin: 1% auto;
+    margin: 3% auto;
 }
 
 h2 {
-    
     font-style: bold;
-    text-align: right;   
+    text-align: right;
+    padding-right: 13.5%;   
 }
 
 h3 {
     font-size: 16px;
     font-style: bold;
     text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 hr {
@@ -32,19 +34,21 @@ hr {
 
 .paybills {
     margin: 20px auto;
-    width: auto;
+    width: 80%;
     border-style: solid;
     border-color: #0F3B75;
 }
 
 .col-sm-4 {
-    width: 50%;
     margin-top: 3%;
     margin-bottom: 5%;
+    margin-right: 5%;
+    padding-left: 10%;
 }
 
 .btn-default {
-    width: 100%;
+    width:100%;
+    margin:auto;
     background-color: #0F3B75;
     color: #ffffff;
 }
